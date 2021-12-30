@@ -79,24 +79,18 @@ const LogInScreen = ({ navigation }) => {
             </View>
 
 
-            <TouchableOpacity
+            <Button
                 onPress={() => navigation.navigate("RegisterScreen")}
-            >
-                <Button
-                    buttonStyle={{ backgroundColor: "purple", marginTop: 10, width: "50%", marginLeft: "25%" }}
-                    title="Register"
-                    icon={
-                        <Entypo style={{ marginRight: 9 }}
-                            name="arrow-bold-right"
-                            size={25}
-                            color="red"
-                        />
-                    }
-                />
-
-
-
-            </TouchableOpacity>
+                buttonStyle={{ backgroundColor: "purple", width: "100%", marginTop: 100 }}
+                title="Register"
+                icon={
+                    <Entypo style={{ marginRight: 9 }}
+                        name="arrow-bold-right"
+                        size={25}
+                        color="red"
+                    />
+                }
+            />
 
 
 
